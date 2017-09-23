@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "272C51C31F76AF290028BC43"
-               BuildableName = "CSAlgorithms.app"
-               BlueprintName = "CSAlgorithms"
-               ReferencedContainer = "container:CSAlgorithms.xcodeproj">
+               BlueprintIdentifier = "6A5E388325859F3D1C7E2F6B14860A7D"
+               BuildableName = "Pods_CSAlgorithmsTests.framework"
+               BlueprintName = "Pods-CSAlgorithmsTests"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "272C51D71F76AF290028BC43"
-               BuildableName = "CSAlgorithmsTests.xctest"
-               BlueprintName = "CSAlgorithmsTests"
-               ReferencedContainer = "container:CSAlgorithms.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "272C51C31F76AF290028BC43"
-            BuildableName = "CSAlgorithms.app"
-            BlueprintName = "CSAlgorithms"
-            ReferencedContainer = "container:CSAlgorithms.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "272C51C31F76AF290028BC43"
-            BuildableName = "CSAlgorithms.app"
-            BlueprintName = "CSAlgorithms"
-            ReferencedContainer = "container:CSAlgorithms.xcodeproj">
+            BlueprintIdentifier = "6A5E388325859F3D1C7E2F6B14860A7D"
+            BuildableName = "Pods_CSAlgorithmsTests.framework"
+            BlueprintName = "Pods-CSAlgorithmsTests"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "272C51C31F76AF290028BC43"
-            BuildableName = "CSAlgorithms.app"
-            BlueprintName = "CSAlgorithms"
-            ReferencedContainer = "container:CSAlgorithms.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
