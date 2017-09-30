@@ -13,6 +13,8 @@
 		272C51CF1F76AF290028BC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272C51CE1F76AF290028BC43 /* Assets.xcassets */; };
 		272C51D21F76AF290028BC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272C51D01F76AF290028BC43 /* LaunchScreen.storyboard */; };
 		272C51E81F76AFE20028BC43 /* CSAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C51E71F76AFE20028BC43 /* CSAlgorithmsTests.swift */; };
+		272C51ED1F76BD520028BC43 /* HanoiTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C51EC1F76BD520028BC43 /* HanoiTower.swift */; };
+		272C51EF1F76C22F0028BC43 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C51EE1F76C22F0028BC43 /* Stack.swift */; };
 		5BC897F1AB991C3B816B0643 /* Pods_CSAlgorithmsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2730DC2015F8262CFC2B19 /* Pods_CSAlgorithmsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		272C51D81F76AF290028BC43 /* CSAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		272C51DE1F76AF290028BC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		272C51E71F76AFE20028BC43 /* CSAlgorithmsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSAlgorithmsTests.swift; sourceTree = "<group>"; };
+		272C51EC1F76BD520028BC43 /* HanoiTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanoiTower.swift; sourceTree = "<group>"; };
+		272C51EE1F76C22F0028BC43 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		E623FE4DE6DD06516C7395E5 /* Pods-CSAlgorithmsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSAlgorithmsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSAlgorithmsTests/Pods-CSAlgorithmsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +88,7 @@
 		272C51C61F76AF290028BC43 /* CSAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				272C51E91F76B0950028BC43 /* HanoiTower */,
 				272C51C71F76AF290028BC43 /* AppDelegate.swift */,
 				272C51C91F76AF290028BC43 /* ViewController.swift */,
 				272C51CB1F76AF290028BC43 /* Main.storyboard */,
@@ -101,6 +106,15 @@
 				272C51DE1F76AF290028BC43 /* Info.plist */,
 			);
 			path = CSAlgorithmsTests;
+			sourceTree = "<group>";
+		};
+		272C51E91F76B0950028BC43 /* HanoiTower */ = {
+			isa = PBXGroup;
+			children = (
+				272C51EC1F76BD520028BC43 /* HanoiTower.swift */,
+				272C51EE1F76C22F0028BC43 /* Stack.swift */,
+			);
+			name = HanoiTower;
 			sourceTree = "<group>";
 		};
 		C660645D9494BDDBF9B69DCA /* Frameworks */ = {
@@ -286,7 +300,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				272C51CA1F76AF290028BC43 /* ViewController.swift in Sources */,
+				272C51EF1F76C22F0028BC43 /* Stack.swift in Sources */,
 				272C51C81F76AF290028BC43 /* AppDelegate.swift in Sources */,
+				272C51ED1F76BD520028BC43 /* HanoiTower.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
